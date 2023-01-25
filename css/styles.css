@@ -40,7 +40,6 @@ body {
 }
 
 .menu-list {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -59,7 +58,6 @@ body {
 
 
 .contact-list {
-    font-family: 'Roboto';
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -108,9 +106,6 @@ body {
 .hero-btn:focus {
     background: var(--hover-focus-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-    border-radius: 4px;
-    letter-spacing: 0.04em;
-
 }
 
 .text-title {
@@ -179,10 +174,5 @@ body {
 .filters-btn:focus {
     background: var(--logo-btn-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 4px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.04em;
     color: var(--white-color);
 }
